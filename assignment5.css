@@ -1,0 +1,43 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: tan;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+h2, #footer {
+    text-align: center;
+}
+
+#twentythree, #currently, #twentytwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    
+    width: 200px;
+    margin: 30px;
+}
+
+#buttons {
+    margin-top: 80px;
+}
+
+a:hover {
+    background-color: white;
+}
